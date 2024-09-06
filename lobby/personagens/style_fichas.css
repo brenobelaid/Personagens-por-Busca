@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    height: 100vi;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+.fundo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; /* Repete a imagem ou não */
+    background-position: center; /* Posiciona a imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    z-index: -3;
+}
+.historia{
+    
+    position: fixed;
+    top: 30%;
+    left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow-y: auto;
+    height: 700px;
+    bottom: 100px;
+    font-family: "Nerko One", cursive;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    
+
+}
+.antigo{
+    position: absolute;
+    top: -30px;
+    left: 1800px;
+    width: 1100px;
+    height: 5330px;
+    z-index: -1;
+    filter:brightness(80%);
+}
+.antigo h1{
+    position: absolute;
+    align-items: center;
+    left: 200px;
+    top: 10px;
+    color:rgb(0, 0, 0);
+}
+
+.fundo.superior{
+    
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    width: 2400px;
+    height: 1500px;
+    background-repeat: no-repeat; /* Repete a imagem ou não */
+    background-position: center; /* Posiciona a imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    z-index: -2;
+    filter:opacity(20%);
+}
+.ficha_imagem{
+    width: 100px;
+    height: 150px;
+}
+.ficha_texto{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 3;
+    
+}
+.ficha{
+    position: absolute;
+    top: 90px;
+    left: 2050px;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    border: 5px solid black;
+    border-radius: 5px;
+    filter: opacity(80%);
+    z-index: 2;
+
+}
+.voltar{
+    width: 80px;
+    height: 30px;
+}
