@@ -128,7 +128,7 @@ footer{
 }
 /* posiciona a seta que posteriormente sera interativa */
 .seta{
-    position: absolute;
+    position: fixed;
     top: 610px;
     left: 1040px;
     z-index: 1;
